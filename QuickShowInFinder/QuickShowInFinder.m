@@ -62,11 +62,14 @@
 // Sample Action, for menu item:
 - (void)doMenuAction
 {
-    [[NSWorkspace sharedWorkspace] selectFile:self.url inFileViewerRootedAtPath:nil];
+    if (self.url) {
+        [[NSWorkspace sharedWorkspace] selectFile:self.url inFileViewerRootedAtPath:nil];
+    }
 }
 
 - (void)getFileUrlByClickNotification:(NSNotification *)notifycation
 {
+    NSLog(@"notifycation.name=%@", notifycation.name);
     if ([notifycation.name isEqualToString:@"transition from one file to another"]) {
         NSURL *originURL = [[notifycation.object valueForKey:@"next"] valueForKey:@"documentURL"];
         if (originURL != nil && [originURL absoluteString].length >= 7 ) {
