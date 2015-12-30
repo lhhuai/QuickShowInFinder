@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		553A92701C33AEBD0088DA7F /* quickshowinfinder.png in Resources */ = {isa = PBXBuildFile; fileRef = 553A926F1C33AEBD0088DA7F /* quickshowinfinder.png */; };
 		55C037D51C338A8700A3E531 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C037D41C338A8700A3E531 /* AppKit.framework */; };
 		55C037D71C338A8700A3E531 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C037D61C338A8700A3E531 /* Foundation.framework */; };
 		55C037DB1C338A8700A3E531 /* QuickShowInFinder.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = 55C037DA1C338A8700A3E531 /* QuickShowInFinder.xcscheme */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		553A926F1C33AEBD0088DA7F /* quickshowinfinder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quickshowinfinder.png; sourceTree = "<group>"; };
 		55C037D11C338A8700A3E531 /* QuickShowInFinder.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickShowInFinder.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		55C037D41C338A8700A3E531 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		55C037D61C338A8700A3E531 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
@@ -39,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		553A926E1C33AEBD0088DA7F /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				553A926F1C33AEBD0088DA7F /* quickshowinfinder.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		55C037C81C338A8600A3E531 = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +82,7 @@
 				55C037DD1C338A8700A3E531 /* QuickShowInFinder.m */,
 				55C037DF1C338A8700A3E531 /* NSObject_Extension.h */,
 				55C037E01C338A8700A3E531 /* NSObject_Extension.m */,
+				553A926E1C33AEBD0088DA7F /* Resource */,
 				55C037E21C338A8700A3E531 /* Info.plist */,
 				55C037D91C338A8700A3E531 /* Supporting Files */,
 			);
@@ -143,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55C037DB1C338A8700A3E531 /* QuickShowInFinder.xcscheme in Resources */,
+				553A92701C33AEBD0088DA7F /* quickshowinfinder.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +295,7 @@
 				55C037E71C338A8700A3E531 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
