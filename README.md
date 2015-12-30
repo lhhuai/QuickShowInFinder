@@ -1,5 +1,5 @@
-## QuicklyShowInFinder
-A Xcode Plugin to quickly show in finder with using shortcut key（alt+f）.
+## QuickShowInFinder
+A Xcode Plugin to quick show in finder with using shortcut key（alt+f）.
 
 ## Install & Update
 just type the commands below in terminal.
